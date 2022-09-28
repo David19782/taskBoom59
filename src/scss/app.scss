@@ -33,3 +33,9 @@ html {
     display: none;
   }  
 }
+
+@media (max-device-width: 600px){
+  .discounts{
+    display: inline-block;
+  }  
+}
