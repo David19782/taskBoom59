@@ -28,14 +28,13 @@ html {
   flex-flow: column;
 }
 
-@media (min-device-width: 600px){
-  .discounts{
-    display: none;
-  }  
+.discounts{
+  display: hidden;
 }
+
 
 @media (max-device-width: 600px){
   .discounts{
-    display: inline-block;
+    display: inline;
   }  
 }
